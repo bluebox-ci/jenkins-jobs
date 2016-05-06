@@ -1,0 +1,11 @@
+- job:
+    builders:
+    - shell: |
+        #!/bin/bash
+        echo A WINNER IS YOU
+        exit 0
+    description: A test jenkins job
+    disabled: false
+    name: test
+    project-type: freestyle
+
